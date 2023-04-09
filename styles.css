@@ -1,0 +1,408 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+
+}
+
+.navbar-brand {
+  position: relative;
+  width: 100px;
+}
+
+.nav-item-left-space {
+  text-align: center;
+}
+
+.dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+
+/* multi column dropdown */
+
+.dropdown-menu {
+  min-width: 200px;
+}
+
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+
+.dropdown-menu.columns-3 {
+  min-width: 600px;
+}
+
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300;
+}
+
+.multi-column-dropdown {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.428571429;
+  color: #333;
+  white-space: normal;
+}
+
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: #999;
+}
+
+@media (max-width: 767px) {
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+  }
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+
+
+}
+
+
+
+
+/* multi column dropdown ends */
+.icon-size {
+  height: 40px;
+  width: 40px;
+  color: black;
+}
+
+
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.home_text {
+
+  justify-content: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+
+
+
+.land_home {
+  background-image: linear-gradient(to top, #000 0%, transparent 20%), url(/IMG/MLP.jpg);
+
+
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+
+}
+
+
+@media (max-width: 600px) {
+
+  .land_home {
+    height: 750px;
+    width: 100%;
+    background-size: contain;
+  }
+}
+
+
+@media (min-width: 600px) {
+
+  .land_home {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .land_home {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .land_home {
+    height: 1000px;
+    width: 100%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .land_home {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .land_home {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+
+
+
+/* Home section 2 */
+
+
+.home_text2 {
+
+  justify-content: center;
+  text-align: start;
+  margin-top: 14rem;
+}
+
+.land_home2 {
+  background-image: linear-gradient(to left, #000 40%, transparent 58%), url(/IMG/TVOD.jpg);
+  background-position: left top;
+
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+
+}
+
+
+@media (max-width: 600px) {
+
+  .land_home2 {
+    height: 750px;
+    width: 100%;
+    background-size: contain;
+  }
+}
+
+
+@media (min-width: 600px) {
+
+  .land_home2 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .land_home2 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .land_home2 {
+    height: 1000px;
+    width: 100%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .land_home2 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .land_home2 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+
+
+/* Home section 4 */
+
+.home_text3 {
+
+  justify-content: center;
+  text-align: start;
+  margin-top: 21rem;
+}
+
+.land_home3 {
+  background-image: url(/IMG/MLP_Template_Image_Left._SX1440_CR0\,0\,865\,675_QL80_AC_FP_.jpg);
+  /* background-image: linear-gradient(to left, #000 40%, transparent 58%), url(/IMG/TVOD.jpg); */
+  background-position: left top;
+
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+
+}
+
+
+@media (max-width: 600px) {
+
+  .land_home3 {
+    height: 750px;
+    width: 100%;
+    background-size: contain;
+  }
+}
+
+
+@media (min-width: 600px) {
+
+  .land_home3 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .land_home3 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .land_home3 {
+    height: 1000px;
+    width: 100%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .land_home3 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .land_home3 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+
+/* Home section 5 */
+
+.home_text4 {
+
+  justify-content: center;
+  text-align: start;
+  margin-top: 17rem;
+  margin-left: 2rem;
+}
+
+.land_home4 {
+  background-image: url(/IMG/IN-kids-30Jan._CB1517304519_.jpg);
+  /* background-image: linear-gradient(to left, #000 40%, transparent 58%), url(/IMG/TVOD.jpg); */
+  background-position: left top;
+
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+
+}
+
+
+@media (max-width: 600px) {
+
+  .land_home4 {
+    height: 750px;
+    width: 100%;
+    background-size: contain;
+  }
+}
+
+
+@media (min-width: 600px) {
+
+  .land_home4 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .land_home4 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .land_home4 {
+    height: 1000px;
+    width: 100%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .land_home4 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .land_home4 {
+    height: 750px;
+    width: 100%;
+  }
+}
+
+.footer-img {
+
+  align-items: center;
+  position: relative;
+  width: 8rem;
+  margin-top: 1rem;
+
+}
+
+
+
+.gridCol img{
+  justify-content: center;
+  margin: 0.5rem;
+  height: 8.47rem;
+   width: 12.273rem;
+}
+
+.home_text5 {
+  margin-top: 10rem;
+}
