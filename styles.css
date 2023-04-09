@@ -93,7 +93,7 @@ img {
 .home_text {
 
   justify-content: center;
-  text-align: center;
+  text-align: start;
   margin-top: 10rem;
 }
 
@@ -320,6 +320,11 @@ img {
   text-align: start;
   margin-top: 17rem;
   margin-left: 2rem;
+
+  j
+  
+
+
 }
 
 .land_home4 {
