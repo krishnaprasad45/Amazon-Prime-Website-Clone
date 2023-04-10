@@ -101,7 +101,7 @@ img {
 
 
 .land_home {
-  background-image: linear-gradient(to top, #000 0%, transparent 20%), url(/IMG/MLP.jpg);
+  background-image: linear-gradient(to top, #000 0%, transparent 20%), url(./IMG/MLP.jpg);
 
 
   background-repeat: no-repeat;
@@ -176,7 +176,7 @@ img {
 }
 
 .land_home2 {
-  background-image: linear-gradient(to left, #000 40%, transparent 58%), url(/IMG/TVOD.jpg);
+  background-image: linear-gradient(to left, #000 40%, transparent 58%), url(./IMG/TVOD.jpg);
   background-position: left top;
 
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ img {
 }
 
 .land_home3 {
-  background-image: url(/IMG/MLP_Template_Image_Left._SX1440_CR0\,0\,865\,675_QL80_AC_FP_.jpg);
+  background-image: url(./IMG/MLP_Template_Image_Left._SX1440_CR0\,0\,865\,675_QL80_AC_FP_.jpg);
   /* background-image: linear-gradient(to left, #000 40%, transparent 58%), url(/IMG/TVOD.jpg); */
   background-position: left top;
 
@@ -328,7 +328,7 @@ img {
 }
 
 .land_home4 {
-  background-image: url(/IMG/IN-kids-30Jan._CB1517304519_.jpg);
+  background-image: url(./IMG/IN-kids-30Jan._CB1517304519_.jpg);
   /* background-image: linear-gradient(to left, #000 40%, transparent 58%), url(/IMG/TVOD.jpg); */
   background-position: left top;
 
