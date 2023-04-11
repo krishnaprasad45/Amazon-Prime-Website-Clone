@@ -6,7 +6,7 @@ body {
 
 .navbar-brand {
   position: relative;
-  width: 100px;
+  width: 6.25rem;
 }
 
 .nav-item-left-space {
@@ -22,26 +22,26 @@ body {
 /* multi column dropdown */
 
 .dropdown-menu {
-  min-width: 200px;
+  min-width: 12.5rem;
 }
 
 .dropdown-menu.columns-2 {
-  min-width: 400px;
+  min-width: 25rem;
 }
 
 .dropdown-menu.columns-3 {
-  min-width: 600px;
+  min-width: 37.5;
 }
 
 .dropdown-menu li a {
-  padding: 5px 15px;
+  padding: 0.313rem 0.938rem;
   font-weight: 300;
 }
 
 .multi-column-dropdown {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 .multi-column-dropdown li a {
@@ -76,18 +76,19 @@ body {
 
 /* multi column dropdown ends */
 .icon-size {
-  height: 40px;
-  width: 40px;
+  height: 2.5rem;
+  width: 2.5rem;
   color: black;
 }
 
 
 
 
-img {
+/* img {
   width: 100%;
   height: auto;
-}
+} */
+
 
 
 .home_text {
@@ -411,3 +412,19 @@ img {
 .home_text5 {
   margin-top: 10rem;
 }
+
+
+
+
+@media (max-width:450px){
+  .gridCol img{
+    justify-content: center;
+    margin: 0.5rem;
+    height: 4.47rem;
+     width: 6rem;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
+
