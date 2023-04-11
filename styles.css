@@ -1,8 +1,19 @@
 body {
   background-color: black;
   overflow-x: hidden;
+  width: 100%;
 
 }
+
+/* .container {
+  text-align: center;
+} */
+/* .navbar {
+  display: inline-block;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: auto;
+} */
 
 .navbar-brand {
   position: relative;
@@ -80,6 +91,7 @@ body {
   width: 2.5rem;
   color: black;
 }
+
 
 
 

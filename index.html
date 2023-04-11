@@ -8,136 +8,103 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./styles.css">
 
-  <link rel="stylesheet" href="./css/font-awesome.css">
-  <link rel="stylesheet" href="./css/font-awesome.min.css">
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="./font-awesome-6.4.0/all.css">
+ <link rel="stylesheet" href="./font-awesome-6.4.0/all.min.css">
+  
+ <script src="https://kit.fontawesome.com/5d3780823e.js" crossorigin="anonymous"></script>
+ 
 
 
 </head>
 
 <body>
-  <header class="bg-dark">
-    <div class="row text-white align-content-center nav-item-left-space ">
-      <div class="col-md-3 col-9  ">
-        <a class="navbar-brand" href="#"><img class="navbar-brand mt-3" src="./IMG/Logo-min.png " alt=""></a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark d-flex justify-content-center fixed-top ">
+    <div class="container-fluid  col-12 col-md-8  ">
+      <a class="navbar-brand" href="#"><img class="navbar-brand" src="./IMG/Logo-min.png " alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" style="color: white;" href="#"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">All</a></li>
+              <li><a class="dropdown-item" href="#">Movies</a></li>
+              <!-- <li>
+                <hr class="dropdown-divider">
+              </li> -->
+              <li><a class="dropdown-item" href="#">TV Shows</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Store
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">All</a></li>
+              <li><a class="dropdown-item" href="#">Rent</a></li>
 
-      </div>
-      <div class="col-md-9 col-3">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-center  ">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
-            <ul class="navbar-nav  ">
-              <!---font icon-->
+              <li><a class="dropdown-item" href="#">Channels</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action and adventure</a></li>
+              <li><a class="dropdown-item" href="#">Mystery and thrillers</a></li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink"
-                  data-bs-toggle='dropdown' aria-haspopup="true" aria-expanded="false">
-                  Home
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">All</a>
-                  <a class="dropdown-item" href="#">Movies</a>
-                  <a class="dropdown-item" href="#">TV Shows</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink"
-                  data-bs-toggle='dropdown' aria-haspopup="true" aria-expanded="false">
-                  Store
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">All</a>
-                  <a class="dropdown-item" href="#">Rent</a>
-                  <a class="dropdown-item" href="#">Channels</a>
-                </div>
-              </li>
+              <li><a class="dropdown-item" href="#">Romance</a></li>
+              <li><a class="dropdown-item" href="#">Horrer</a></li>
+              <li><a class="dropdown-item" href="#">Comedy</a></li>
 
-
-
-
-
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="color:white;" href="#" id="navbarDropdownMenuLink"
-                  data-bs-toggle='dropdown' aria-haspopup="true" aria-expanded="false">
-                  Categories <b class="caret"></b></a>
-                </a>
-
-                <ul class="dropdown-menu multi-column columns-3" aria-labelledby="navbarDropdownMenuLink">
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <ul class="multi-column-dropdown">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-4">
-                      <ul class="multi-column-dropdown">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-4">
-                      <ul class="multi-column-dropdown">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </ul>
-
-              </li>
-              <i class="fa-solid fa-search mt-3 mx-3" style="color: #ffffff;"></i>
-
-              <li class="nav-item">
-                <a class="nav-link" style="color: white;" href="#">Subscribe now</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink"
-                  data-bs-toggle='dropdown' aria-haspopup="true" aria-expanded="false">
-                  EN
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <i class="fa-solid fa-user mt-3 mx-3" style="color: #ffffff;"></i>
 
             </ul>
-          </div>
-        </nav>
+          </li>
+
+          <a href=""><i class="fa-solid fa-magnifying-glass mt-2 mx-lg-5" style="color: #f5f5f5;"></i></a>
+
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#">Subscribe now</a>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              EN
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Spanish</a></li>
+              <li><a class="dropdown-item" href="#">Hindi</a></li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Other</a></li>
+            </ul>
+          </li>
+
+          <a href=""><i class="fa-solid fa-user  mt-2 mx-lg-5" style="color: #ffffff;"></i></a>
+        </ul>
 
       </div>
-
     </div>
+  </nav>
 
-  </header>
+
+
 
   <!-- HOME SECTION 1 -->
 
@@ -145,14 +112,14 @@
     <div class="row">
 
 
-      <div class="col-md-6  col-12 p-5 home_text">
+      <div class="col-lg-6 col-md-6  col-12 p-5 home_text">
 
         <h1 class="text-white">Welcome to Prime Video</h1><br>
         <h4 class="text-white fw-light ">Watch the latest movies, TV shows, and award-winning<br>Amazon Originals</h4>
         <br>
         <button type="button" class="btn btn-primary px-5 py-2">Sign in to join Prime</button>
       </div>
-      <div class="col-md-6 ">
+      <div class="col-lg-6 col-md-6 col-6 ">
 
       </div>
 
@@ -168,7 +135,7 @@
 
       </div>
 
-      <div class="col-md-6  col-12 p-5 home_text2 ">
+      <div class=" col-lg-6 col-md-6  col-12 p-5 home_text2 ">
 
         <h1 class="text-white">Movie rentals on Prime Video</h1><br>
         <h4 class="text-white fw-light">Early Access to new movies, before digital subscription
@@ -185,11 +152,11 @@
   <div class="land_home3 ">
     <div class="row">
 
-      <div class="col-md-6 ">
+      <div class=" col-lg-6 col-md-6 col-6">
 
       </div>
 
-      <div class="col-md-6  col-12 p-5 home_text3 ">
+      <div class=" col-lg-6 col-md-6  col-12 p-5 home_text3 ">
 
         <h1 class="text-white">Even better with Fire TV Stick</h1><br>
         <h4 class="text-white fw-light">The biggest movies and TV shows are always better on a big screen. Simply plug
